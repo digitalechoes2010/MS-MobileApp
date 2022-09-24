@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "288759344367",
+    "project_id": "metropolitan-security-79244",
+    "storage_bucket": "metropolitan-security-79244.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:288759344367:android:2841ea3d5a368935d73f1a",
+        "android_client_info": {
+          "package_name": "com.firstrnprojec"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "288759344367-u87s5oloa07r0rlsttvjfgjef9ei5s8m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.firstrnprojec",
+            "certificate_hash": "34f6795efae46ea41fe8e990779c3bd307580dfa"
+          }
+        },
+        {
+          "client_id": "288759344367-fvmg0hv58r11kbjhjc9r9f951p99eid5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBStXo9km72NKF7KAIKMZoFp-5w2MGuiXU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "288759344367-fvmg0hv58r11kbjhjc9r9f951p99eid5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
