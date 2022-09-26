@@ -87,6 +87,8 @@ function Alerts(props) {
   const [filters, setFilters] = useState([]);
 
   const [arrayname, setArrayname] = useState('cities');
+  const [arrayDistance, setArrayDistance] = useState([]);
+  
 
   const [modalVisible, setModalVisible] = useState(false);
   const [currentDate, setCurrentDate] = useState('');
@@ -111,10 +113,10 @@ function Alerts(props) {
   const [bcolor3, setBcolor3] = useState('#093AA0');
   const [bcolor4, setBcolor4] = useState('#093AA0');
   const [bcolor5, setBcolor5] = useState('#093AA0');
-
+  
   useEffect(() => {
     dispatch(getCities());
-
+    
     var date = new Date().getDate(); //Current Date
     var month = new Date().getMonth() + 1; //Current Month
     var year = new Date().getFullYear(); //Current Year
@@ -629,7 +631,7 @@ function Alerts(props) {
                                       color: '#8E8E8E',
                                       fontSize: normalize(12),
                                     }}>
-                                    {getDistance(
+                                  {props.distanceData === 'Km' ? Math.round(getDistance(
                                       {
                                         latitude: props.latitude,
                                         longitude: props.longitude,
@@ -638,8 +640,17 @@ function Alerts(props) {
                                         latitude: item.latitude,
                                         longitude: item.longitude,
                                       },
-                                    ) * props.division}{' '}
-                                    {props.unit}
+                                    ) * 0.001) : (Math.round(getDistance(
+                                      {
+                                        latitude: props.latitude,
+                                        longitude: props.longitude,
+                                      },
+                                      {
+                                        latitude: item.latitude,
+                                        longitude: item.longitude,
+                                      },
+                                    ) * 0.00062))}{' '}
+                                    {props.distanceData === 'Km' ? 'Km' : 'Miles'}
                                   </Text>
                                 </>
                               )}
@@ -826,7 +837,7 @@ function Alerts(props) {
                                       color: '#8E8E8E',
                                       fontSize: normalize(12),
                                     }}>
-                                    {getDistance(
+                                    {props.distanceData === 'Km' ? Math.round(getDistance(
                                       {
                                         latitude: props.latitude,
                                         longitude: props.longitude,
@@ -835,8 +846,17 @@ function Alerts(props) {
                                         latitude: item.latitude,
                                         longitude: item.longitude,
                                       },
-                                    ) * props.division}{' '}
-                                    {props.unit}
+                                    ) * 0.001) : (Math.round(getDistance(
+                                      {
+                                        latitude: props.latitude,
+                                        longitude: props.longitude,
+                                      },
+                                      {
+                                        latitude: item.latitude,
+                                        longitude: item.longitude,
+                                      },
+                                    ) * 0.00062))}{' '}
+                                    {props.distanceData === 'Km' ? 'Km' : 'Miles'}
                                   </Text>
                                 </>
                               )}
@@ -920,6 +940,7 @@ function Alerts(props) {
 const mapStateToProps = state => {
   return {
     logindata: state.loginreducer,
+    distanceData: state.DistanceReducer.distance,
   };
 };
 

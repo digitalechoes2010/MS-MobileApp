@@ -41,7 +41,7 @@ export default function ProfilePress(){
   const [longitude,setLongitude]=useState('');
   const [error,setError]=useState('');
   const [address,setAddress]=useState('Beirut');  
-  const [unitval,setUnitval] = useState('miles');
+  const [unitval,setUnitval] = useState('Km');
   const [divval,setdivval] =useState(1);
   const [forecast,setForecast] =useState([]);
   const[temperature,setTempareture] =useState('');
@@ -77,11 +77,11 @@ const updateno = () =>{
 }
 
   const updateunitmiles = () => {
-setUnitval('miles');
+setUnitval('Miles');
 setdivval(0.00062);
   }
   const updateunitkmiles = () => {
-    setUnitval('km');
+    setUnitval('Km');
     setdivval(0.001);
   }
 
@@ -263,14 +263,8 @@ temperature={temperature} description={descrip}   ></BottomSheet>
 
 </View>
 
-<View style={{height:"auto",width:"100%",flex:1,backgroundColor:"transparent",position:"absolute"
-,marginTop: Platform.OS === 'ios' ? '28%' : '18%'}}>
-    <>
-
     <Home updateab={updateyes}  latitude={latitude} longitude={longitude} unit={unitval} division={divval}></Home>
-   
-    </>
-</View>
+
 <OrientationLoadingOverlay
           visible={overlayvisible}
           color="white"

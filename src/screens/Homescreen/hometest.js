@@ -403,8 +403,9 @@ const styles = StyleSheet.create({
 
     alignContent: 'center',
     alignItems: 'center',
-    // paddingVertical:'2%',
+    paddingVertical: '3%',
     paddingHorizontal: '4%',
+
   },
   aboutbutton: {
     height: hp('10%'),
@@ -450,7 +451,7 @@ const styles = StyleSheet.create({
   },
 
   containmaps: {
-    marginTop: Platform.OS === 'ios' ? '1%' : 0,
+    // marginTop: Platform.OS === 'ios' ? '2%' : 0,
     position: 'relative',
     justifyContent: 'center',
     width: '100%',

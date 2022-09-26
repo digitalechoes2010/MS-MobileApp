@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 
 import { Text, View, TouchableOpacity, Platform, Dimensions, PixelRatio} from 'react-native';
+import {connect} from 'react-redux';
 
 const CustomSwitch = ({
   navigation,
@@ -9,9 +10,10 @@ const CustomSwitch = ({
   option1,
   option2,
   onSelectSwitch,
-  selectionColor
+  selectionColor,
+  distanceData
 }) => {
-  const [getSelectionMode, setSelectionMode] = useState(selectionMode);
+  const [getSelectionMode, setSelectionMode] = useState(distanceData);
   const [getRoundCorner, setRoundCorner] = useState(roundCorner);
 
   const updatedSwitchData = val => {
@@ -49,18 +51,18 @@ const CustomSwitch = ({
         }}>
         <TouchableOpacity
           activeOpacity={1}
-          onPress={() => updatedSwitchData(1)}
+          onPress={() => updatedSwitchData('Km')}
           style={{
             flex: 1,
 
-            backgroundColor: getSelectionMode == 1 ? selectionColor : 'transparent',
+            backgroundColor: getSelectionMode === 'Km' ? selectionColor : 'transparent',
             borderRadius: getRoundCorner ? 25 : 0,
             justifyContent: 'center',
             alignItems: 'center',
           }}>
           <Text
             style={{
-              color: getSelectionMode == 1 ? 'white' : '#093A9E',
+              color: getSelectionMode === 'Km' ? 'white' : '#093A9E',
               fontSize: normalize(12)
             }}>
             {option1}
@@ -69,18 +71,18 @@ const CustomSwitch = ({
         <TouchableOpacity
           TouchableOpacity
           activeOpacity={1}
-          onPress={() => updatedSwitchData(2)}
+          onPress={() => updatedSwitchData('Miles')}
           style={{
             flex: 1,
 
-            backgroundColor: getSelectionMode == 2 ? selectionColor : 'transparent',
+            backgroundColor: getSelectionMode === 'Miles' ? selectionColor : 'transparent',
             borderRadius: getRoundCorner ? 25 : 0,
             justifyContent: 'center',
             alignItems: 'center',
           }}>
           <Text
             style={{
-              color: getSelectionMode == 2 ? 'white' : '#093A9E',
+              color: getSelectionMode === 'Miles' ? 'white' : '#093A9E',
               fontSize: normalize(12)
             }}>
             {option2}
@@ -90,4 +92,11 @@ const CustomSwitch = ({
     </View>
   );
 };
-export default CustomSwitch;
+
+const mapStateToProps = state => {
+  return {
+    distanceData: state.DistanceReducer.distance,
+  };
+};
+
+export default connect(mapStateToProps, null)(CustomSwitch);

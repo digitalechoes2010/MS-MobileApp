@@ -28,6 +28,7 @@ import {useSelector, useDispatch} from 'react-redux';
 import {getspecialnews} from '../../redux/actions';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import FontAwesome from 'react-native-vector-icons/FontAwesome';
+import {setKilometers, setMiles} from '../../redux/distanceActionCreator';
 
 
 import { SvgXml } from 'react-native-svg';
@@ -45,7 +46,7 @@ const BottomSheet = props => {
   const [open, setOpen] = useState(false);
   const [isEnabled, setIsEnabled] = useState(false);
 
-  const [unitvalue, setUnitvalue] = useState('miles');
+  const [unitvalue, setUnitvalue] = useState('Km');
   const scrollRef = useRef();
   
   const {
@@ -71,12 +72,16 @@ const updateleee = () =>{
           props.updatenno();
 }
 
+{console.log("Distance", props.distanceData)}
+
   const onSelectSwitch = index => {
-    if (index == 1) {
-      setUnitvalue('kilometers');
+    if (index === 'Km') {
+      setUnitvalue('Km');
+      props.setKilometers()
       props.updatekm();
     } else {
-      setUnitvalue('miles');
+      setUnitvalue('Miles');
+      props.setMiles();
       props.updatemiles();
     }
   };
@@ -659,12 +664,15 @@ ref={scrollRef}
 };
 
 const mapDispatchToProps = dispatch => ({
+  setKilometers: () => dispatch(setKilometers()),
+  setMiles: () => dispatch(setMiles()),
   dologout: () => dispatch(logout()),
 });
 
 const mapStateToProps = state => {
   return {
     logindata: state.loginreducer,
+    distanceData: state.DistanceReducer.distance,
   };
 };
 
