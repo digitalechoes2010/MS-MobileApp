@@ -43,8 +43,7 @@ import {
             <Text style={{fontSize:normalize(12), color:"black", fontWeight:"bold"}}>X</Text>
           </TouchableOpacity>
               <Image source={require("../../assets/alert4.png")} style={{width:normalize(20), height: normalize(20)}} resizeMode="contain"/>
-            <Text style={[styles.modalText, {fontSize:normalize(12)}]}>Alert! Panic button unavailable. Your current plan does not support this
-feature please contact +9611999966</Text>
+            <Text style={[styles.modalText, {fontSize:normalize(12)}]}>Alert! Panic button unavailable. Your current plan does not support this feature. Please contact {"\n"} +961 1 999 966</Text>
             
           </View>
         </Pressable>
