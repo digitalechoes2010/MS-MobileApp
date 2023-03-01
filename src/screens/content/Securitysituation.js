@@ -101,6 +101,45 @@ Coming Back From The Brink {"\n"}
 But through a rare level of cooperation, Lebanese leaders and their international allies brought the country back from the brink. The 2013-14 peak of instability galvanised a political consensus on the need to avoid a national catastrophe and led to the formation of the Tammam Salam cabinet in February 2014. This paved the way for historically unprecedented counter-terrorism cooperation between Lebanon’s security and intelligence forces, traditionally divided by inter-agency rivalries mirroring the preferences of their patron political/sectarian elites. The rare inter-agency security cooperation was encouraged and supported by mainly western states contributing with intelligence, technical assistance, hardware and funding to the ISF, General Security and Lebanese Armed Forces (LAF). This included the notable formation of Lebanon’s first ever proper border regiments tasked with controlling a porous eastern border open to human smugglers, terrorist infiltrators, arms traffickers etc. Parallel to the domestic and foreign support for the formal security forces, the national political consensus led power brokers to lift political cover and protection from destabilizing elements such as Tripolitan militia leaders, extremist religious figures inciting sectarian violence, as well as armed clans and organized crime groups in the Bekaa Valley. Finally, Lebanon’s domestic security also benefited from the Syrian army and Hezbollah taking control of most of the eastern border on the Syrian side from various rebel groups over the course of 2013 and 2014 as well as Hezbollah and the Lebanese army’s complete elimination of the terrorist presence in the north-east Bekaa in the summer of 2017. 
 {"\n"}{"\n"}
 </Text>
+<Text style={{color:"black",textAlign:"left",fontSize:normalize(12)}}>
+Most stable in 50 years {"\n"}
+</Text>
+<Text  style={{color:"black",textAlign:"justify", fontSize:normalize(12)}}>
+Lebanon has therefore been gradually and continually stabilising since early 2015, reaching a level of
+stability not seen for nearly so years. There have been no major successful terrorist incidents since
+November 12th 2015, although the bungled Islamic State operation in al-Qaa in June 2016 and several
+foiled attacks since then testify to a low but real residual risk. Similarly, from 2014-18 kidnappings in
+Lebanon have gone from an average rate of one per week to around one per month, and with far
+fewer high-profile cases. Militia clashes have been largely eliminated in all areas outside the
+Palestinian camps, and even there they have become increasingly rare. However, casualties relating
+to minor shootings, personal disputes, raids by security forces, and celebratory gunfire remain
+common across the country. The Lebanese government has taken several steps to curb the problem
+of gun violence, including cancelling arms licenses and raising the criminal punishment for
+unsanctioned shooting, but small arms fire continues to occur on a near-daily basis, especially in
+marginalised urban areas and rural districts. Minor shootings have killed or injured scores of
+civilians over the past two years alone, including many innocent bystanders caught at the wrong
+place in the wrong time.{"\n"}{"\n"}
+</Text>
+<Text style={{color:"black",textAlign:"left",fontSize:normalize(12)}}>
+Remaining threats {"\n"}
+</Text>
+<Text  style={{color:"black",textAlign:"justify", fontSize:normalize(12)}}>
+In the current context various types of civil unrest such as demonstrations and roadblocks are the
+most common security incidents in Lebanon. Civil unrest has not witnessed the same overall
+decline as other security incident types and continues to occur on a near-daily basis, fuelled
+primarily by continually deteriorating livelihood conditions reflecting a range of issues, including
+stagnating or unpaid public sector salaries, tax hikes, rising housing rents, the garbage crisis, and
+recurrent electricity cuts. Since April 2017 more than 300 individual protests and road blocks have
+been reported across the country, overwhelmingly taking place in squares in major cities and in
+many key traffic junctions as activists seek to maximise exposure and disruptive impact on traffic.
+However, the most violent manifestations have been largely brought to a halt after the 2015 'You
+Stink' protests that led to widespread vandalism in downtown Beirut and clashes between activists
+and security forces. Apart from demonstrations organised by political parties and/or with a politicosectarian
+dimension, most acts of civil unrest are therefore now announced, short-lived, and
+generally peaceful. However, as a minor riot in Hamra in late December 2018 indicates, this peaceful
+pattern of demonstrations could easily change in 2019 if general socio-economic hardship continues
+to worsen.{"\n"}{"\n"}
+</Text>
            </View>
 
 </ScrollView>

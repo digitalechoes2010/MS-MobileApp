@@ -27,7 +27,7 @@ export default class Table1 extends Component {
         ['Religions', 'Muslim  (Sunni, Shia, Druze), Christian (includes Maronite Catholic, Greek Orthodox, Greek Catholic, and other Christians)'],
         ['Population growth rate (2013-2014)', '9.3 % (world largest growth rate due to the influx of refugees)'],
         ['Economy', 'Free-market economy, not restricting foreign investment. But suffers from corruption, red tape, arbitrary licensing decisions, complex customs procedures, high tariffs and fees, and weak intellectual property rights Sectors: Service 75%, industry 20%, agriculture 5%'],
-        ['Opening hours', 'Government offices: 8.00am – 2.00pm Private offices and stores: 8.00am – 5.00pm Banks: 8.00am – 14.00pm weekdays, 8.00am – 12.00pm weekends Government offices: 8.00am – 2.00pmPrivate offices and stores: 8.00am – 5.00pm'],
+        ['Opening hours', 'Government offices: 8.00am - 2.00pm\n\nPrivate offices and stores: 8.00am - 5.00pm\n\nBanks: 8.00am - 14.00pm weekdays, 8.00am - 12.00pm weekends'],
       ],
       DataTable3: [
         ['Conventional name', 'Lebanese Republic'],
@@ -36,9 +36,9 @@ export default class Table1 extends Component {
         ['Constitution', 'Adopted 23 May 1926. Amended several times, last in 2004'],
         ['Legal system', 'Mixed legal system of civil law based on the French civil code, Ottoman legal tradition, and religious laws covering personal status, marriage, divorce, and other family relations of the islamic and christian communities'],
         ['Suffrage', '21 years'],
-        ['Head of state', 'The President (Michel Aoun since October 2016)'],
-        ['Head of government: ', 'The Prime Minister (Saad Hariri since December 2016)'],
-        ['Security forces', 'Lebanese Armed Forces (LAF) is the Lebanese military consisting of Lebanese Army, Lebanese Navy, and Lebanese Air Force. Internal Security forces (ISF) is the Lebanese police force General Directorate of General Security (GS) is the Lebanese intelligence service General Directorate of Sate Security is the Lebanese executive intelligence serviceLebanese Armed Forces (LAF) is the Lebanese military consisting of Lebanese Army, Lebanese Navy, and Lebanese Air Force.Internal Security forces (ISF) is the Lebanese police force'],
+        ['Head of state', 'The President'],
+        ['Head of government: ', 'The Prime Minister'],
+        ['Security forces', 'Lebanese Armed Forces (LAF) is the Lebanese military consisting of Lebanese Army, Lebanese Navy, and Lebanese Air Force.\n\nInternal Security forces (!SF) is the Lebanese police force\n\nGeneral Directorate of General Security (GS) is the Lebanese intelligence service\n\nGeneral Directorate of Sate Security is the Lebanese executive intelligence service'],
       ]
     }
   }

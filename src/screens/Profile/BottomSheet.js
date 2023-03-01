@@ -552,7 +552,7 @@ ref={scrollRef}
                   border4="20"></Myinformation>
 
 <Text style={[styles.titletext, {fontSize:normalize(12)}]}>National Risk</Text>
-                <Myinformation
+                {/* <Myinformation
                   nametitle="National Risk Assessment"
                   border1="20"
                   border2="20"
@@ -565,12 +565,12 @@ ref={scrollRef}
                     backgroundColor: '#CED0CE',
                     marginLeft: '4%',
                   }}
-                />
+                /> */}
 
                 <Myinformation
                   nametitle="National Risk Zone Map"
-                  border1="0"
-                  border2="0"
+                  border1="20"
+                  border2="20"
                   border3="20"
                   border4="20"></Myinformation>
 
@@ -609,7 +609,7 @@ ref={scrollRef}
               {console.log("GY", normalize(12))}
 
               <Text>{'\n'}</Text>
-              <Text style={{textAlign:"center",color:"black",fontWeight:"bold", fontSize:normalize(12)}}>Follow us on</Text>
+              <Text style={{textAlign:"center",color:"black",fontWeight:"bold", fontSize:normalize(12)}}>on</Text>
               
 <View style={styles.followus}>
   <TouchableOpacity  onPress={() =>   OpenAnything.Web('https://www.facebook.com/metropolitansal/')}>

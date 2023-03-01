@@ -281,6 +281,7 @@ function Alerts(props) {
 
   return (
     <>
+    
       <Modal
         isVisible={modalVisible}
         backdropColor="#B4B3DB"
@@ -313,7 +314,7 @@ function Alerts(props) {
           </View>
         </Pressable>
       </Modal>
-
+ 
       <Animatable.View
         animation="slideInLeft"
         delay={1000}
@@ -338,6 +339,7 @@ function Alerts(props) {
               fontWeight: 'bold',
               fontSize: normalize(12),
             }}>
+             
             Latest Alerts
           </Text>
           <View
@@ -510,7 +512,18 @@ function Alerts(props) {
           </Tab.Navigator>
         </LinearGradient>
         {console.log('BBB', props.latitude + ' ' + props.longitude)}
-        <ScrollView>
+         {/* <FlatList
+        data={[{ key: 'Latest Alerts' }]}
+        renderItem={({ item }) => <Text style={{
+          color: 'white',
+          fontWeight: 'bold',
+          fontSize: normalize(12),
+        }}>{item.key}</Text>}
+        refreshControl={
+          <RefreshControl refreshing={refreshing} onRefresh={onRefresh} />
+        }
+      /> */}
+        {/* <ScrollView> */}
           {arrayname == 'filters' ? (
             <>
               <FlatList
@@ -536,7 +549,9 @@ function Alerts(props) {
                 }}
                 data={filters}
                 renderItem={({item}) => (
+                  
                   <>
+                  
                     {moment(currentDate).diff(moment(item.datetime), 'hours') <=
                     48 ? (
                       <>
@@ -726,6 +741,7 @@ function Alerts(props) {
             </>
           ) : (
             <>
+           
               <FlatList
                 refreshControl={
                   <RefreshControl
@@ -931,7 +947,7 @@ function Alerts(props) {
               />
             </>
           )}
-        </ScrollView>
+        {/* </ScrollView> */}
       </Animatable.View>
     </>
   );

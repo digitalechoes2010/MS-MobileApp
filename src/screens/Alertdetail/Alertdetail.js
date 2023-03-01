@@ -10,7 +10,7 @@ import {
   PixelRatio,
   Dimensions,
   SafeAreaView,
-  Platform,
+  Platform, 
   PermissionsAndroid,
   Linking,
 } from 'react-native';

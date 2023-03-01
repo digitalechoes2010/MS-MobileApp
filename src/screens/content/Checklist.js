@@ -97,6 +97,16 @@ Bellow is a number of useful steps for foreigners to take before departing to Le
 - Make sure to bring sufficient amounts of any needed prescription medication for your stay plus an emergency reserve{"\n"}{"\n"}
 - Make sure to have received all recommended vaccinations before departure{"\n"}{"\n"}
 - Leave your contact details, a copy of your passport and insurance policy with trusted friends/family {"\n"}{"\n"}
+- Make sure to have room in your budget for emergency situations and unexpected delays {"\n"}{"\n"}
+- Check if your driving license is valid in Lebanon, and if possible, acquire an international license and have it certified by the Lebanese authorities {"\n"}{"\n"}
+- Check duty-free and import/export regulation between Lebanon and your home country for maximum allowances and product bans {"\n"}{"\n"}
+- Have the following phone numbers stored: {"\n"}{"\n"}
+• Internal Security Forces (the Lebanese police): 112 or +96114256 50{"\n"}{"\n"}
+• Fire Brigade: 175 or +9611445000{"\n"}{"\n"}
+• Lebanese Red Cross: 140 or +961 5924017{"\n"}{"\n"}
+• Beirut International Airport: +96116 2800{"\n"}{"\n"}
+• Tourist Information (Beirut office in Hamra): +9611340940{"\n"}{"\n"}
+• AUB Medical Center: +961135000{"\n"}{"\n"}
 </Text>
  </View>
 </ScrollView>

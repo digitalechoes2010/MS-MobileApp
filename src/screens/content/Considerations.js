@@ -89,9 +89,36 @@ function Considerations(props){
             
 <Text style={{color:"black",textAlign:"justify", fontSize: normalize(12)}}>
 {"\n"}
-Very few preparations are generally needed prior to visiting Lebanon, and most foreign visitors are able to obtain visas directly upon arrival at Beirut’s Rafik Hariri International Airport. Visitors coming to Lebanon should however be aware that it is a highly diverse country with a multitude of different religious, ethnic and political groups that vary widely between liberal and conservative attitudes. Although all communities are typically very hospitable and open to visitors, a reasonable degree of cultural sensitivity should always be displayed, particularly with respect to opinions about religion and politics.{"\n"}{"\n"}
-Additionally, visitors should be aware of the extensive negative spill-over effects from the conflict-torn region that often have great consequences for Lebanon and its internal stability. This is particularly noticeable with regards to the vast influx of Syrian refugees, the long-term presence of a significant Palestinian refugee community, ongoing tensions with Israel, and the regional dispute between the sunni-bloc led by Saudi Arabia and the shia-bloc led by Iran.{"\n"}{"\n"}
-Despite facing these challenges, Lebanon remains a safe and accessible travel destination that offers many remarkable tourist attractions, including several natural and historic UNESCO World Heritage sites, cultural festivals, premium nightlife, as well as a range of sites ideal for outdoor activities such as hiking, kayaking, paragliding, skiing and beach-going. Most of the country is considered safe for travellers, with a few notable exceptions including some of the Palestinian refugee camps, the far eastern border areas with Syria, and the southern areas bordering Israel. {"\n"}{"\n"}
+Very few preparations are generally needed prior to visiting Lebanon, and most foreign
+visitors are able to obtain visas directly upon arrival at Beirut's Rafik Hariri
+International Airport. Visitors coming to Lebanon should however be aware that it is a
+highly diverse country with a multitude of different religious, ethnic and political
+groups that vary widely between liberal and conservative attitudes. Although all
+communities are typically very hospitable and open to visitors, a reasonable degree of
+cultural sensitivity should always be displayed, particularly with respect to opinions
+about religion and politics.{"\n"}{"\n"}
+Additionally, visitors should be aware of the extensive negative spill-over effects from
+the conflict-torn region that often have great consequences for Lebanon and its internal
+stability. This is particularly noticeable with regards to the vast influx of Syrian
+refugees, the long-term presence of a significant Palestinian refugee community,
+ongoing tensions with Israel, and the regional dispute between the sunni-bloc led by
+Saudi Arabia and the shia-bloc led by Iran.
+{"\n"}{"\n"}
+Despite facing these challenges, Lebanon remains a safe and accessible travel
+destination that offers many remarkable tourist attractions, including several natural
+and historic UNESCO World Heritage sites, cultural festivals, premium nightlife, as well
+as a range of sites ideal for outdoor activities such as hiking, kayaking, paragliding,
+skiing and beach-going. Most of the country is considered safe for travellers, with a few
+notable exceptions including some of the Palestinian refugee camps, the far eastern
+border areas with Syria, and the southern areas bordering Israel.
+{"\n"}{"\n"}
+In general, the main threats to visitors are however not related to security but rather
+the risks from erratic and unregulated traffic, deteriorating or sub-standard
+infrastructure, un-enforced safety regulations, and petty crime. Most of these risks can
+be effectively mitigated if foreigners familiarise themselves with sufficient background
+information and conduct their stay in coordination with security professionals
+possessing extensive knowledge of local challenges and dynamics.
+{"\n"}
 </Text>
            </View>
 
